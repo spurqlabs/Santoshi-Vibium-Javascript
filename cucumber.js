@@ -56,5 +56,6 @@ module.exports = {
     tags: '@sanity',
     format: ['progress-bar', 'json:reports/cucumber-report.json'],
     formatOptions: { snippetInterface: 'synchronous' }
-  }
+  },
+
 }

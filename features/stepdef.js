@@ -3,7 +3,7 @@
 const { Given, When, Then } = require('@cucumber/cucumber')
 const LoginPage       = require('../pages/loginpage')
 const MyTimesheetPage = require('../pages/mytimesheet')
-const MyInfoPage      = require('../pages/myInfoPage')
+
 
 // ── Background Steps ─────────────────────────────────────────────────────────
 

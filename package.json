@@ -5,12 +5,12 @@
   "main": "index.js",
   "type": "commonjs",
   "scripts": {
-    "test": "cucumber-js",
-    "test:parallel": "cucumber-js --parallel 2",
-    "test:smoke": "cucumber-js --tags @smoke",
-    "test:regression": "cucumber-js --tags @regression",
-    "test:sanity": "cucumber-js --tags @sanity",
-    "test:timesheet": "cucumber-js --tags @timesheet"
+    "test": "cucumber-js && node utils/reportGenerator.js",
+    "test:parallel": "cucumber-js --parallel 2 && node utils/reportGenerator.js",
+    "test:smoke": "cucumber-js --tags @smoke && node utils/reportGenerator.js",
+    "test:regression": "cucumber-js --tags @regression && node utils/reportGenerator.js",
+    "test:sanity": "cucumber-js --tags @sanity && node utils/reportGenerator.js",
+    "test:timesheet": "cucumber-js --tags @timesheet && node utils/reportGenerator.js"
   },
   "keywords": [],
   "author": "",

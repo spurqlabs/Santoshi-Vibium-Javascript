@@ -1,0 +1,62 @@
+[
+  {
+    "id": "my-timesheet-management-in-orangehrm",
+    "name": "My Timesheet Management in OrangeHRM",
+    "description": "BDD test automation for OrangeHRM Timesheet module - Epic PLAY-EP-008",
+    "uri": "features/timesheet.feature",
+    "keyword": "Feature",
+    "author": "Santoshi Mohite",
+    "userName": "Santoshi Mohite",
+    "metadata": [
+      { "name": "author",   "value": "Santoshi Mohite" },
+      { "name": "reporter", "value": "Santoshi Mohite" }
+    ],
+    "elements": [
+      {
+        "id": "tc001---login-to-application",
+        "name": "TC001 - Login to application",
+        "description": "Verify that a valid user can successfully log in to the OrangeHRM application",
+        "keyword": "Scenario",
+        "type": "scenario",
+        "author": "Santoshi Mohite",
+        "userName": "Santoshi Mohite",
+        "tags": [{ "name": "@smoke" }],
+        "steps": [
+          { "keyword": "Given ", "name": "user is on OrangeHRM login page",         "result": { "status": "passed", "duration": 500000000 } },
+          { "keyword": "When ",  "name": "user enter username",                      "result": { "status": "passed", "duration": 300000000 } },
+          { "keyword": "When ",  "name": "user enter password",                      "result": { "status": "passed", "duration": 200000000 } },
+          { "keyword": "When ",  "name": "user click on Login button",               "result": { "status": "passed", "duration": 1000000000 } },
+          { "keyword": "Then ",  "name": "the user is logged in to the application", "result": { "status": "passed", "duration": 500000000 } }
+        ]
+      },
+      {
+        "id": "tc002---add-timesheet-details",
+        "name": "TC002 - Add Timesheet details",
+        "description": "Verify full timesheet navigation flow including edit and cancel",
+        "keyword": "Scenario",
+        "type": "scenario",
+        "author": "Santoshi Mohite",
+        "userName": "Santoshi Mohite",
+        "tags": [{ "name": "@regression" }],
+        "steps": [
+          { "keyword": "Given ", "name": "user is on OrangeHRM login page",                             "result": { "status": "passed", "duration": 500000000 } },
+          { "keyword": "When ",  "name": "user enter username",                                          "result": { "status": "passed", "duration": 300000000 } },
+          { "keyword": "When ",  "name": "user enter password",                                          "result": { "status": "passed", "duration": 200000000 } },
+          { "keyword": "When ",  "name": "user click on Login button",                                   "result": { "status": "passed", "duration": 1000000000 } },
+          { "keyword": "Then ",  "name": "the user is logged in to the application",                     "result": { "status": "passed", "duration": 500000000 } },
+          { "keyword": "Given ", "name": "user is on Dashboard page",                                    "result": { "status": "passed", "duration": 300000000 } },
+          { "keyword": "When ",  "name": "user navigates to Time -> Timesheets",                         "result": { "status": "passed", "duration": 800000000 } },
+          { "keyword": "Then ",  "name": "ViewEmployeeTimesheet page is displayed",                      "result": { "status": "passed", "duration": 400000000 } },
+          { "keyword": "When ",  "name": "User click on Timesheet option",                               "result": { "status": "passed", "duration": 600000000 } },
+          { "keyword": "Then ",  "name": "Timesheet dropdown list is displayed",                         "result": { "status": "passed", "duration": 300000000 } },
+          { "keyword": "When ",  "name": "user select My Timesheets option from the Timesheet dropdown", "result": { "status": "passed", "duration": 700000000 } },
+          { "keyword": "Then ",  "name": "ViewMyTimesheet page is displayed",                            "result": { "status": "passed", "duration": 400000000 } },
+          { "keyword": "When ",  "name": "User click on Edit button",                                    "result": { "status": "passed", "duration": 500000000 } },
+          { "keyword": "Then ",  "name": "EditTimesheet page is displayed",                              "result": { "status": "passed", "duration": 300000000 } },
+          { "keyword": "When ",  "name": "User click on Cancel button",                                  "result": { "status": "passed", "duration": 400000000 } },
+          { "keyword": "Then ",  "name": "View MyTimesheet page is displayed",                           "result": { "status": "passed", "duration": 300000000 } }
+        ]
+      }
+    ]
+  }
+]

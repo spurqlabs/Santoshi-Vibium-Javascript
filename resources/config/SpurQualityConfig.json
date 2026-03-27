@@ -1,0 +1,14 @@
+{
+  "email": "sandeep.garud@spurqlabs.com",
+  "userName": "Sandeep Garud",
+  "projectName": "DemoBlaze",
+  "tool": "Spur Validator",
+  "organizationName": "SpurQLabs",
+  "designation": "SDET",
+  "report": "PostExecution",
+  "templateName": "Default Template",
+  "testExecutionAssignee": "Sandeep Garud",
+  "testCaseExecutedBy": "Sandeep Garud",
+  "testType": "manual",
+  "userSecretKey": "8877cb956b2f01e72a02652a1bac2d832aa88da34aedd5dc990105f97fb11574"
+}

@@ -40,7 +40,8 @@ BeforeAll(function () {
 })
 
 AfterAll(function () {
-  console.log('\n[Suite] Test run complete.\n')
+  console.log('\n[Suite] Test run complete.')
+  console.log('[Suite] Cucumber JSON report will be uploaded to SpurQuality automatically.\n')
 })
 
 // ── Scenario-level hooks ─────────────────────────────────────────────────────
