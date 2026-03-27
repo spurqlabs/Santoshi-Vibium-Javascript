@@ -1,0 +1,70 @@
+{
+  "loginPage": {
+    "usernameInput": "input[name='username']",
+    "passwordInput": "input[name='password']",
+    "loginButton":   "button[type='submit']",
+    "errorMessage":  ".oxd-alert-content-text",
+    "loginLogo":     ".orangehrm-login-logo img"
+  },
+
+  "dashboard": {
+    "pageHeader":        ".oxd-topbar-header-breadcrumb",
+    "sidebarActiveItem": ".oxd-main-menu-item.active"
+  },
+
+  "sidebar": {
+    "timeMenuLink": "a.oxd-main-menu-item[href='/web/index.php/time/viewTimeModule']"
+  },
+
+  "viewEmployeeTimesheet": {
+    "breadcrumb":        ".oxd-topbar-header-breadcrumb",
+    "employeeNameInput": "input[placeholder='Type for hints...']",
+    "viewButton":        "button.oxd-button--secondary"
+  },
+
+  "timesheetsTopNav": {
+    "timesheetsTab":            ".oxd-topbar-body-nav-tab:nth-child(1) .oxd-topbar-body-nav-tab-item",
+    "attendanceTab":            ".oxd-topbar-body-nav-tab:nth-child(2) .oxd-topbar-body-nav-tab-item",
+    "reportsTab":               ".oxd-topbar-body-nav-tab:nth-child(3) .oxd-topbar-body-nav-tab-item",
+    "projectInfoTab":           ".oxd-topbar-body-nav-tab:nth-child(4) .oxd-topbar-body-nav-tab-item",
+    "dropdownMenu":             ".oxd-dropdown-menu",
+    "myTimesheetsOption":       ".oxd-dropdown-menu li:nth-child(1) a",
+    "employeeTimesheetsOption": ".oxd-dropdown-menu li:nth-child(2) a"
+  },
+
+  "viewMyTimesheet": {
+    "breadcrumb":         ".oxd-topbar-header-breadcrumb",
+    "myTimesheetHeading": "h6.orangehrm-main-title",
+    "periodDateInput":    ".oxd-input[readonly]",
+    "previousWeekBtn":    "button.orangehrm-timeperiod-icon.--prev",
+    "nextWeekBtn":        "button.orangehrm-timeperiod-icon.--next",
+    "editBtn":            "button.oxd-button--ghost",
+    "submitBtn":          "button:has-text('Submit')",
+    "statusChip":         ".oxd-chip",
+    "timesheetTable":     ".orangehrm-timesheet-table"
+  },
+
+  "editTimesheet": {
+    "editTimesheetHeading": "h6.orangehrm-main-title",
+    "breadcrumb":           ".oxd-topbar-header-breadcrumb",
+    "projectDropdown":      ".oxd-autocomplete-text-input input",
+    "projectDropdownOption": ".oxd-autocomplete-option",
+    "activityDropdown":     ".oxd-select-text",
+    "activityOption":       ".oxd-select-option",
+    "mondayHours":          ".orangehrm-timesheet-table-body-row td:nth-child(3) input.oxd-input",
+    "tuesdayHours":         ".orangehrm-timesheet-table-body-row td:nth-child(4) input.oxd-input",
+    "wednesdayHours":       ".orangehrm-timesheet-table-body-row td:nth-child(5) input.oxd-input",
+    "thursdayHours":        ".orangehrm-timesheet-table-body-row td:nth-child(6) input.oxd-input",
+    "fridayHours":          ".orangehrm-timesheet-table-body-row td:nth-child(7) input.oxd-input",
+    "saveBtn":              "button[type='submit'].oxd-button--secondary",
+    "cancelBtn":            ".orangehrm-timesheet-footer button.oxd-button--ghost"
+  },
+
+  
+  "common": {
+    "toastSuccess":        ".oxd-toast--success",
+    "toastSuccessMessage": ".oxd-toast--success .oxd-text",
+    "toastError":          ".oxd-toast--error",
+    "loadingSpinner":      ".oxd-loading-spinner"
+  }
+}

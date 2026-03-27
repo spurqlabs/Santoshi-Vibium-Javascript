@@ -1,0 +1,38 @@
+{
+  "fileName": "timesheetData",
+  "scenarios": [
+    {
+      "scenarioName": "TC001 - Login to application",
+      "testData": {
+        "username": "Admin",
+        "password": "admin123"
+      }
+    },
+    {
+      "scenarioName": "TC002 - Add Timesheet details",
+      "testData": {
+        "projectName": "ACME Ltd - ACME Ltd",
+        "activity": "Feature Development",
+        "mondayHours": "8",
+        "tuesdayHours": "7",
+        "wednesdayHours": "6",
+        "thursdayHours": "4",
+        "fridayHours": "4",
+        "saturdayHours": "2",
+        "sundayHours": "0"
+      }
+    },
+    {
+      "scenarioName": "TC003 - Add Contact details",
+      "testData": {
+        "street1": "123 Main Street",
+        "city": "Mumbai",
+        "state": "Maharashtra",
+        "zipCode": "400001",
+        "mobile": "9876543210",
+        "workPhone": "0221234567",
+        "workEmail": "test.user@company.com"
+      }
+    }
+  ]
+}

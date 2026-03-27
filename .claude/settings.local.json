@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__vibium__browser_navigate",
+      "mcp__vibium__browser_fill",
+      "mcp__vibium__browser_click",
+      "mcp__vibium__browser_wait_for_load",
+      "mcp__vibium__browser_screenshot",
+      "mcp__vibium__browser_get_text",
+      "mcp__vibium__browser_find"
+    ]
+  }
+}

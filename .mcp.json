@@ -1,0 +1,21 @@
+{
+  "mcpServers": {
+    "vibium": {
+      "type": "stdio",
+      "command": "npx",
+      "args": ["-y", "vibium", "mcp"],
+      "env": {}
+    },
+    "SpurQuality-MCP": {
+      "type": "http",
+      "url": "https://spur-mcp.onrender.com/mcp",
+      "headers": {
+        "user-email": "santoshi.mohite@spurqlabs.com",
+        "secret-key": "2cc26c760ac76bcb6c2ac14de567ec2c374a44bda98c26dd46971a157d1424c1",
+        "organization": "SpurQLabs",
+        "base-url": "https://api-spurqlabs.spurquality.com",
+        "ProjectName": "Playground"
+      }
+    }
+  }
+}

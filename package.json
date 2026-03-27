@@ -1,0 +1,26 @@
+{
+  "name": "vidium-assignment",
+  "version": "1.0.0",
+  "description": "OrangeHRM BDD Test Automation - Cucumber + Vibium",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "cucumber-js",
+    "test:parallel": "cucumber-js --parallel 2",
+    "test:smoke": "cucumber-js --tags @smoke",
+    "test:regression": "cucumber-js --tags @regression",
+    "test:sanity": "cucumber-js --tags @sanity",
+    "test:timesheet": "cucumber-js --tags @timesheet"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "vibium": "^26.3.17"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "^10.3.2",
+    "cucumber-html-reporter": "^6.0.0"
+  }
+}

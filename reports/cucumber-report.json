@@ -1,0 +1,363 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "my-timesheet-management-in-orangehrm;tc001---login-to-application",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "TC001 - Login to application",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 4912911299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "user is on OrangeHRM login page",
+            "match": {
+              "location": "features\\stepdef.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5487461400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "user enter username",
+            "match": {
+              "location": "features\\stepdef.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 959484899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "user enter password",
+            "match": {
+              "location": "features\\stepdef.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 97994399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "user click on Login button",
+            "match": {
+              "location": "features\\stepdef.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3618350500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "the user is logged in to the application",
+            "match": {
+              "location": "features\\stepdef.js:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 214002399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "the user is logged in to the application",
+            "match": {
+              "location": "features\\stepdef.js:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 23967700
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2917732400
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 10
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "my-timesheet-management-in-orangehrm;tc002---add-timesheet-details",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "TC002 - Add Timesheet details",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 5840181800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "user is on OrangeHRM login page",
+            "match": {
+              "location": "features\\stepdef.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5400265900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "user enter username",
+            "match": {
+              "location": "features\\stepdef.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 834498599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "user enter password",
+            "match": {
+              "location": "features\\stepdef.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 42503000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "user click on Login button",
+            "match": {
+              "location": "features\\stepdef.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3471936600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "the user is logged in to the application",
+            "match": {
+              "location": "features\\stepdef.js:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 344990099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 16,
+            "name": "user is on Dashboard page",
+            "match": {
+              "location": "features\\stepdef.js:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 66639299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 17,
+            "name": "user navigates to Time -> Timesheets",
+            "match": {
+              "location": "features\\stepdef.js:42"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3141639100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "ViewEmployeeTimesheet page is displayed",
+            "match": {
+              "location": "features\\stepdef.js:47"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9509200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 19,
+            "name": "User click on Timesheet option",
+            "match": {
+              "location": "features\\stepdef.js:52"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 116641400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "Timesheet dropdown list is displayed",
+            "match": {
+              "location": "features\\stepdef.js:57"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10801500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 21,
+            "name": "user select My Timesheets option from the Timesheet dropdown",
+            "match": {
+              "location": "features\\stepdef.js:63"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2441296200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "ViewMyTimesheet page is displayed",
+            "match": {
+              "location": "features\\stepdef.js:68"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11707000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 23,
+            "name": "User click on Edit button",
+            "match": {
+              "location": "features\\stepdef.js:73"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1946061100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 24,
+            "name": "EditTimesheet page is displayed",
+            "match": {
+              "location": "features\\stepdef.js:78"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1470589599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 25,
+            "name": "User click on Cancel button",
+            "match": {
+              "location": "features\\stepdef.js:83"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 119534500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 26,
+            "name": "View MyTimesheet page is displayed",
+            "match": {
+              "location": "features\\stepdef.js:88"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13760800
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2147277799
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 14
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "my-timesheet-management-in-orangehrm",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "My Timesheet Management in OrangeHRM",
+    "tags": [],
+    "uri": "features\\timesheet.feature"
+  }
+]
